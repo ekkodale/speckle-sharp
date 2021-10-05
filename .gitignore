@@ -363,3 +363,5 @@ ConnectorDynamo/ConnectorDynamo/dist/
 *.rhl
 
 speckle-sharp-ci-tools
+
+/_build/
