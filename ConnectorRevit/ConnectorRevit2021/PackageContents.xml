@@ -1,0 +1,83 @@
+﻿<!--<?xml version="1.0" encoding="utf-8"?>-->
+<ApplicationPackage
+  SchemaVersion="1.0"
+  AutodeskProduct="Revit"
+  ProductType="Application"
+  Name="Speckle Revit Connector"
+  AppVersion="1.0.0.0"
+  FriendlyVersion="1.0.0.0"
+  Description="speckle connector"
+  Author="3ID"
+  Icon="./Content/SpeckleConnectorRevit.png"
+  AppNameSpace="appstore.exchange.autodesk.com"
+  OnlineDocumentation="speckle.systems"
+  HelpFile="./Content/SpeckleConnectorRevit.htm"
+  ProductCode="{B5179E23-F398-4523-9D50-5BE14B79FC1F}"
+  UpgradeCode="{11AE7D84-A11E-46B0-B93E-3BBCFAAD1A6B}">
+
+  <CompanyDetails
+    Name="Speckle"
+    Phone=" " Url="https://www.speckle.systems"
+    Email="support@speckle.systems" />
+  <RuntimeRequirements
+    OS="Win64"
+    Platform="Revit|Revit MEP"
+    SeriesMin="R2019"
+    SeriesMax="R2022" />
+
+
+
+
+
+  <Components Description="Speckle Connector Revit 2019">
+    <RuntimeRequirements
+      OS="Win64"
+      Platform="Revit|Revit MEP"
+      SeriesMin="R2019"
+      SeriesMax="R2019"/>
+    <ComponentEntry
+      AppName="Speckle Connector Revit"
+      Version="3.0.0.0"
+      ModuleName="./2019/SpeckleRevit2.addin"
+      AppDescription="Speckle Connector Revit"/>
+  </Components>
+
+  <Components Description="Speckle Connector Revit 2020">
+    <RuntimeRequirements
+      OS="Win64"
+      Platform="Revit|Revit MEP"
+      SeriesMin="R2020"
+      SeriesMax="R2020"/>
+    <ComponentEntry
+      AppName="Speckle Connector Revit"
+      Version="3.0.0.0"
+      ModuleName="./2020/SpeckleRevit2.addin"
+      AppDescription="Speckle Connector Revit"/>
+  </Components>
+
+  <Components Description="Speckle Connector Revit 2021">
+    <RuntimeRequirements
+      OS="Win64"
+      Platform="Revit|Revit MEP"
+      SeriesMin="R2021"
+      SeriesMax="R2021"/>
+    <ComponentEntry
+      AppName="Speckle Connector Revit"
+      Version="3.0.0.0"
+      ModuleName="./2021/SpeckleRevit2.addin"
+      AppDescription="Speckle Connector Revit"/>
+  </Components>
+
+  <Components Description="Speckle Connector Revit 2022">
+    <RuntimeRequirements
+      OS="Win64"
+      Platform="Revit|Revit MEP"
+      SeriesMin="R2022"
+      SeriesMax="R2022"/>
+    <ComponentEntry
+      AppName="Speckle Connector Revit"
+      Version="3.0.0.0"
+      ModuleName="./2022/SpeckleRevit2.addin"
+      AppDescription="Speckle Connector Revit"/>
+  </Components>
+</ApplicationPackage>

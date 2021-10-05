@@ -140,7 +140,7 @@ namespace Objects.Converter.Revit
     private Mesh SolidToSpeckleMesh(Solid solid)
     {
       var mesh = new Mesh();
-      (mesh.faces, mesh.vertices) = GetFaceVertexArrFromSolids(new List<Solid>{solid});
+      (mesh.faces, mesh.vertices,mesh.colors) = GetFaceVertexArrFromSolids(new List<Solid>{solid});
       return mesh;
     }
     

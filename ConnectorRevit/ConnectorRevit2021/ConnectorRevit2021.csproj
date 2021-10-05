@@ -33,7 +33,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\_build\final\SpeckleConnectorRevit.bundle\2021\</OutputPath>
     <DefineConstants>DEBUG;TRACE;REVIT2021</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -79,11 +79,31 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PackageContents.xml" />
+  </ItemGroup>
   <Import Project="..\ConnectorRevit\ConnectorRevit.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>Set REL=2021
+
+
+::  Localer Content für das Paket umkopieren
+
+copy /Y "$(ProjectDir)PackageContents.xml" "$(TargetDir)..\PackageContents.xml"
+
+
+
+
+
+
+
+
+:: Copy Release build to Appdata for testing
+
+rmdir "%25APPDATA%25\Autodesk\ApplicationPlugins\$(TargetName).bundle"
+
+xcopy /Y/I/E  "$(SolutionDir)_build\final\$(TargetName).bundle" "%25APPDATA%25\Autodesk\ApplicationPlugins\$(TargetName).bundle"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <IsDesktopBuild Condition="'$(IsDesktopBuild)' == ''">true</IsDesktopBuild>

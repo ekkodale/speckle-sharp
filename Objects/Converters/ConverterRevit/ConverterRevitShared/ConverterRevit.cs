@@ -191,15 +191,31 @@ namespace Objects.Converter.Revit
           break;
       }
 
-      // NOTE: Only try generic method assignment if there is no existing render material from conversions;
-      // we might want to try later on to capture it more intelligently from inside conversion routines.
-      if (returnObject != null && returnObject["renderMaterial"] == null)
-      {
-        var material = GetElementRenderMaterial(@object as DB.Element);
-        returnObject["renderMaterial"] = material;
-      }
+            if (returnObject == null)
+                return returnObject;
 
-      return returnObject;
+          
+            var renderMaterial = returnObject["renderMaterial"] as Objects.Other.RenderMaterial;
+            // NOTE: Only try generic method assignment if there is no existing render material from conversions;
+            // we might want to try later on to capture it more intelligently from inside conversion routines.
+            if (renderMaterial == null)
+            {
+                renderMaterial = GetElementRenderMaterial(@object as DB.Element);
+
+                returnObject["renderMaterial"] = renderMaterial;
+            }
+            else
+            {
+                var colorMaterial = GetElementRenderMaterial(@object as DB.Element);
+
+                if(colorMaterial != null)
+                    renderMaterial.diffuse = colorMaterial.diffuse;    
+                
+            }
+
+            returnObject["renderMaterial"] = renderMaterial;
+
+            return returnObject;
     }
 
     private string GetElemInfo(object o)
