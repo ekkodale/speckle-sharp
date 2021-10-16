@@ -101,6 +101,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConnectorRhinoShared", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorRevit2022", "ConnectorRevit\ConnectorRevit2022\ConnectorRevit2022.csproj", "{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterRevit2022", "Objects\Converters\ConverterRevit\ConverterRevit2022\ConverterRevit2022.csproj", "{E735FF7A-7953-4122-89BB-F6643A7DA55C}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Objects\Converters\ConverterRhinoGh\ConverterRhinoGhShared\ConverterRhinoGhShared.projitems*{26eca1be-f5b2-4a41-9658-46a4a917bfe6}*SharedItemsImports = 5
@@ -128,6 +130,7 @@ Global
 		ConnectorRhino\ConnectorRhino\ConnectorRhinoShared\ConnectorRhinoShared.projitems*{d648bb69-b992-4d34-906e-7a547374b86c}*SharedItemsImports = 4
 		Objects\Converters\ConverterAutocadCivil\ConverterAutocadCivilShared\ConverterAutocadCivilShared.projitems*{d9f443b5-c55b-4ad8-9c70-bc3d2be781be}*SharedItemsImports = 5
 		ConnectorRevit\ConnectorRevit\ConnectorRevit.projitems*{dfdfdbb8-018b-4dcb-a012-54227abf53a7}*SharedItemsImports = 4
+		Objects\Converters\ConverterRevit\ConverterRevitShared\ConverterRevitShared.projitems*{e735ff7a-7953-4122-89bb-f6643a7da55c}*SharedItemsImports = 5
 		ConnectorRevit\ConnectorRevit\ConnectorRevit.projitems*{ef418256-8118-47b4-8386-a945946fb92d}*SharedItemsImports = 4
 		ConnectorAutocadCivil\ConnectorAutocadCivil\ConnectorAutocadCivilShared.projitems*{ff1793e1-77f5-4a92-b3f2-6d8b104e479b}*SharedItemsImports = 4
 	EndGlobalSection
@@ -370,6 +373,14 @@ Global
 		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|x64.ActiveCfg = Release|Any CPU
 		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|x64.Build.0 = Release|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Debug|x64.Build.0 = Debug|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Release|x64.ActiveCfg = Release|Any CPU
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -420,6 +431,7 @@ Global
 		{A64ACBF9-DB82-4839-AF99-57ED2E7989F4} = {E94E7327-5A9B-48EE-93CC-E9E9A5B980F1}
 		{B7376EC8-5D3E-47D2-96A7-748552F14C39} = {E94E7327-5A9B-48EE-93CC-E9E9A5B980F1}
 		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7} = {42A86931-7497-4A34-B2FD-060231CD0A8F}
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C} = {925C0BF6-A0B1-4699-9C4B-078E01D652CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D43D91B-4F01-4A78-8250-CC6F9BD93A14}
