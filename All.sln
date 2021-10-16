@@ -122,7 +122,6 @@ Global
 		ConnectorAutocadCivil\ConnectorAutocadCivil\ConnectorAutocadCivilShared.projitems*{58a88f1a-7489-46d2-949d-2fc3f68c8d84}*SharedItemsImports = 4
 		Objects\Converters\ConverterDynamo\ConverterDynamoShared\ConverterDynamoShared.projitems*{5bab09dc-b0fc-4004-9fd5-6496a9634071}*SharedItemsImports = 13
 		ConnectorRevit\ConnectorRevit\ConnectorRevit.projitems*{5fd0d810-03e9-4fd2-93e4-b1b51e5d82c5}*SharedItemsImports = 13
-		Objects\Converters\ConverterRevit\ConverterRevitShared\ConverterRevitShared.projitems*{73e5ee18-697c-432b-8573-9dc627ab2042}*SharedItemsImports = 5
 		Objects\Converters\ConverterRevit\ConverterRevitShared\ConverterRevitShared.projitems*{77f660dd-302e-4e3e-94dd-29ec8d5b59a6}*SharedItemsImports = 5
 		Objects\Converters\ConverterAutocadCivil\ConverterAutocadCivilShared\ConverterAutocadCivilShared.projitems*{78573adc-87a5-489f-8134-fb4a435a05f0}*SharedItemsImports = 5
 		Objects\Converters\ConverterAutocadCivil\ConverterAutocadCivilShared\ConverterAutocadCivilShared.projitems*{8581b4bb-a8bc-4328-99fe-d18615af2554}*SharedItemsImports = 5
