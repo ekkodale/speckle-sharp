@@ -34,6 +34,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConnectorRevit", "ConnectorRevit", "{42A86931-7497-4A34-B2FD-060231CD0A8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorRevit2021", "ConnectorRevit\ConnectorRevit2021\ConnectorRevit2021.csproj", "{27A79ACA-7EA8-4406-8BB8-216578CC3AB7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77F660DD-302E-4E3E-94DD-29EC8D5B59A6} = {77F660DD-302E-4E3E-94DD-29EC8D5B59A6}
+	EndProjectSection
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConnectorRevitShared", "ConnectorRevit\ConnectorRevit\ConnectorRevitShared.shproj", "{5FD0D810-03E9-4FD2-93E4-B1B51E5D82C5}"
 EndProject
@@ -100,6 +103,9 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConnectorRhinoShared", "ConnectorRhino\ConnectorRhino\ConnectorRhinoShared\ConnectorRhinoShared.shproj", "{B7376EC8-5D3E-47D2-96A7-748552F14C39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorRevit2022", "ConnectorRevit\ConnectorRevit2022\ConnectorRevit2022.csproj", "{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E735FF7A-7953-4122-89BB-F6643A7DA55C} = {E735FF7A-7953-4122-89BB-F6643A7DA55C}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterRevit2022", "Objects\Converters\ConverterRevit\ConverterRevit2022\ConverterRevit2022.csproj", "{E735FF7A-7953-4122-89BB-F6643A7DA55C}"
 EndProject
