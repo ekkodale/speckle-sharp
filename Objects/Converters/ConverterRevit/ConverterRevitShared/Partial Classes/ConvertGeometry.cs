@@ -505,7 +505,7 @@ namespace Objects.Converter.Revit
         {
             var meshMaterial = Doc.GetElement(mesh.MaterialElementId) as Material;
 
-            var meshMaterialColor = -394759;
+            var meshMaterialColor = -12172993;
 
             if (meshMaterial != null)
             {

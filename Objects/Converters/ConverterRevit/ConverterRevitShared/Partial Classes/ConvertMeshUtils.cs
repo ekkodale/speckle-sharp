@@ -235,7 +235,7 @@ namespace Objects.Converter.Revit
 
                     var faceMaterial = Doc.GetElement(face.MaterialElementId) as Material;
 
-                    int faceColor = -16777216;//default
+                    int faceColor = -12172993;//default
                     try
                     {
                         if (faceMaterial != null )
