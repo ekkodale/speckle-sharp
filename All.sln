@@ -115,9 +115,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConnectorETABSShared", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesktopUI2", "DesktopUI2\DesktopUI2\DesktopUI2.csproj", "{AC0613B5-BD0E-4DA3-B704-7BE70D17AFFE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConverterRevit2022", "Objects\Converters\ConverterRevit\ConverterRevit2022\ConverterRevit2022.csproj", "{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroStation", "MicroStation", "{0DA15CBF-A6C5-4EEC-BDDE-9FA403E20A17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorMicroStation", "ConnectorMicroStation\ConnectorMicroStation\ConnectorMicroStation.csproj", "{0420D74A-2997-4B92-844B-C3769DEAA1AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectorRevit2022", "ConnectorRevit\ConnectorRevit2022\ConnectorRevit2022.csproj", "{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ConnectorMicroStationOpenShared", "ConnectorMicroStation\ConnectorMicroStationOpenShared\ConnectorMicroStationOpenShared.shproj", "{372D9F0F-EDE9-4050-BF8C-758911C5C2E0}"
 EndProject
@@ -188,6 +190,8 @@ Global
 		ConnectorETABS\ConnectorETABS\ConnectorETABSShared.projitems*{cc1f6133-9dd5-437c-ab23-380ad00267a2}*SharedItemsImports = 4
 		ConnectorRhino\ConnectorRhino\ConnectorRhinoShared\ConnectorRhinoShared.projitems*{d648bb69-b992-4d34-906e-7a547374b86c}*SharedItemsImports = 4
 		Objects\Converters\ConverterAutocadCivil\ConverterAutocadCivilShared\ConverterAutocadCivilShared.projitems*{d9f443b5-c55b-4ad8-9c70-bc3d2be781be}*SharedItemsImports = 5
+		ConnectorRevit\ConnectorRevit\ConnectorRevit.projitems*{dfdfdbb8-018b-4dcb-a012-54227abf53a7}*SharedItemsImports = 4
+		Objects\Converters\ConverterRevit\ConverterRevitShared\ConverterRevitShared.projitems*{e08ec798-d1b9-4f72-a7cf-8611b5b9ff4c}*SharedItemsImports = 5
 		ConnectorRevit\ConnectorRevit\ConnectorRevit.projitems*{ef418256-8118-47b4-8386-a945946fb92d}*SharedItemsImports = 4
 		ConnectorMicroStation\ConnectorMicroStationOpenShared\ConnectorMicroStationOpenShared.projitems*{fc044d89-0ff3-441d-b35d-87454a693c16}*SharedItemsImports = 4
 		ConnectorAutocadCivil\ConnectorAutocadCivil\ConnectorAutocadCivilShared.projitems*{ff1793e1-77f5-4a92-b3f2-6d8b104e479b}*SharedItemsImports = 4
@@ -464,6 +468,22 @@ Global
 		{A3A0EE09-6055-4009-AB8E-13FBC1A403A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A3A0EE09-6055-4009-AB8E-13FBC1A403A9}.Release|x64.ActiveCfg = Release|Any CPU
 		{A3A0EE09-6055-4009-AB8E-13FBC1A403A9}.Release|x64.Build.0 = Release|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Debug|x64.Build.0 = Debug|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Release|x64.ActiveCfg = Release|Any CPU
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C}.Release|x64.Build.0 = Release|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7}.Release|x64.Build.0 = Release|Any CPU
 		{FC044D89-0FF3-441D-B35D-87454A693C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC044D89-0FF3-441D-B35D-87454A693C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC044D89-0FF3-441D-B35D-87454A693C16}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -611,6 +631,8 @@ Global
 		{AC0613B5-BD0E-4DA3-B704-7BE70D17AFFE} = {DD7DA7E3-FBB7-4216-852B-A4A5BF3AB9AB}
 		{0DA15CBF-A6C5-4EEC-BDDE-9FA403E20A17} = {DD7DA7E3-FBB7-4216-852B-A4A5BF3AB9AB}
 		{0420D74A-2997-4B92-844B-C3769DEAA1AD} = {0DA15CBF-A6C5-4EEC-BDDE-9FA403E20A17}
+		{E08EC798-D1B9-4F72-A7CF-8611B5B9FF4C} = {925C0BF6-A0B1-4699-9C4B-078E01D652CC}
+		{DFDFDBB8-018B-4DCB-A012-54227ABF53A7} = {42A86931-7497-4A34-B2FD-060231CD0A8F}
 		{372D9F0F-EDE9-4050-BF8C-758911C5C2E0} = {0DA15CBF-A6C5-4EEC-BDDE-9FA403E20A17}
 		{A3A0EE09-6055-4009-AB8E-13FBC1A403A9} = {0DA15CBF-A6C5-4EEC-BDDE-9FA403E20A17}
 		{FC044D89-0FF3-441D-B35D-87454A693C16} = {0DA15CBF-A6C5-4EEC-BDDE-9FA403E20A17}
